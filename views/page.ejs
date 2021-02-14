@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test page</title>
+    <link rel="stylesheet" href="css/style.css" >
+</head>
+<body>
+<form class="formPage" action="/add" method="POST">
+    <h1>Welcome</h1>
+    <br>
+    <br>
+    <br>
+    <!--<div id="circle"></div>-->
+    <img src="<%= imgPage %>" alt="Img" style = "overflow : hidden; width: 300px ; height: 300px">
+    <br>
+    <h3>name</h3>
+    <h2><%= namePage %></h2>
+    <h3>achievement</h3>
+    <h2><%= achievementPage %></h2>
+    <button class="btn" type="submit">Add achievement</button>
+</form>
+</body>
+</html>

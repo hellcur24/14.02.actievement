@@ -1,0 +1,23 @@
+body{
+    background: #5f6468;
+    color: #131917
+}
+
+.formPage{
+    text-align: center;
+}
+img{
+    border-radius: 500px;
+}
+/*#circle {
+    position: ;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 50%;
+    width: 350px;
+    height: 350px;
+    background: #7fee1d;
+    -moz-border-radius: 600px;
+    -webkit-border-radius: 600px;
+    border-radius: 600px;
+}*/
