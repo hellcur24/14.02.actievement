@@ -9,10 +9,19 @@ body{
 img{
     border-radius: 500px;
 }
+table{
+    height: 150px;
+    border-radius: 5px;
+    background: #fbefdf ;
+    border: 2px solid #27282d;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 220px;
+    text-align: right;
+}
 /*#circle {
     position: ;
-    margin-left: 50%;
-    margin-right: 50%;
+
     margin-top: 50%;
     width: 350px;
     height: 350px;

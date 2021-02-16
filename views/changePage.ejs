@@ -4,18 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" >
     <title>Document</title>
 </head>
 <body>
     <form class="changePage" action="/" method="POST">
-        <label for="imageUrl">Image URL</label>
-        <input type="text" name="imageUrl" id="imageUrl">
+        <table>
+            <tr>
+                <th><label for="imageUrl" >Image URL:</label></th>
+                <th><input type="text" name="imageUrl" id="imageUrl"></th>
+            </tr>
+            <tr>
+                <th><label>Name:</label></th>
+                <th><input type="text" name="namePage"></th>
+            </tr>
+            <tr>
+                <th><label for="achievement">achievement:</label></th> 
+                <th><input type="text" name="achievement" id="achievement"></th> 
+            </tr>
+            <tr>
+                <th></th>
+                <th><button  type="submit">Add new achievement</button></th>
+                
+            </tr>  
+        </table>
 
-        <label>Name: </label>
-        <input type="text" name="namePage">
-        <label for="achievement">achievement: </label>
-        <input type="text" name="achievement" id="achievement">
-        <button  type="submit">Add new achievement</button>
     </form>
 </body>
 </html>
